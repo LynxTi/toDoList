@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.wrapper {
+    background-color: rgba(78, 70, 53);
+    padding-top: 15px;
+    height: calc(100vh - 15px);
+}
+
+header {
+    margin: 0 30px ;
+    width: auto;
+    min-height: 250px;
+    background-color: rgb(217, 157, 26);
+    border-radius: 5px 5px 25px 25px;
+    position: relative;
+}
+
+.header__newTask{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 25px;
+    border-top: 3px solid rgba(70, 63, 63, 0.712);
+    border-bottom: 3px solid rgba(70, 63, 63, 0.712);
+    box-shadow: 2px 1px 5px 0.1px rgb(105, 105, 105);
+}
+
+h2 {
+    text-align: center;
+}
+
+.content {
+    width: auto;
+    height: 500px;
+    margin: auto 60px;
+    background-color: rgb(249, 244, 233);
+    border-right: 10px solid rgb(217, 157, 26);;
+    border-left: 10px solid rgb(217, 157, 26);
+    position: relative;
+}
+
+.content__taskForDay{
+    width: 1005;
+    margin: 0 25px;
+    display: flex;
+    
+}
+
+.content__inputUserTask{
+    background-color: rgb(249, 244, 233);
+    border: none;
+    border-bottom: 3px solid rgba(70, 63, 63, 0.712);
+    border-radius: 25%;
+    min-height: 35px ;
+    min-width: 50%;
+    margin: 0 auto;
+    
+}
+
+footer {
+    width: auto;
+    background-color: rgb(217, 157, 26);
+    min-height: 50px;
+    margin: 0 30px;
+    border-radius: 25px 25px 0 0;
+}
