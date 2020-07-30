@@ -12,25 +12,27 @@
 
 header {
     margin: 0 30px ;
-    width: auto;
-    min-height: 250px;
+    min-height: 150px;
     background-color: rgb(217, 157, 26);
     border-radius: 5px 5px 25px 25px;
     position: relative;
 }
 
 .header__newTask{
-    width: 100px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     position: absolute;
     left: calc(50% - 50px);
     bottom: 25px;
-    border-top: 3px solid rgba(70, 63, 63, 0.712);
-    border-bottom: 3px solid rgba(70, 63, 63, 0.712);
-    box-shadow: 2px 1px 5px 0.1px rgb(105, 105, 105);
+    border-bottom: 2px solid rgba(70, 63, 63, 0.712);
+    box-shadow: 1px 1px 5px 0.1px rgb(105, 105, 105);
 }
 
+i {
+    font-size: 25px;
+    margin-right: 15px;
+}
 h2 {
     text-align: center;
 }
@@ -45,11 +47,18 @@ h2 {
     position: relative;
 }
 
-.content__taskForDay{
-    width: 1005;
-    margin: 0 25px;
-    display: flex;
+.content__task{
     
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.isDone {
+    padding: auto 0;
+    font-size: 40px;
+    background-color: none;
 }
 
 .content__inputUserTask{
@@ -57,10 +66,16 @@ h2 {
     border: none;
     border-bottom: 3px solid rgba(70, 63, 63, 0.712);
     border-radius: 25%;
-    min-height: 35px ;
+    min-height: 30px ;
     min-width: 50%;
-    margin: 0 auto;
-    
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+}
+span {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
 }
 
 footer {
