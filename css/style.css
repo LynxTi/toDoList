@@ -46,6 +46,23 @@ h2 {
     border-left: 10px solid rgb(217, 157, 26);
     position: relative;
 }
+.content__inputWrapper{
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+.content__inputUserValue {
+    background-color: rgb(249, 244, 233);
+    border: none;
+    border-bottom: 3px solid rgba(70, 63, 63, 0.712);
+    border-radius: 25%;
+    min-height: 30px ;
+    min-width: 50%;
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+}
 
 .content__task{
     
